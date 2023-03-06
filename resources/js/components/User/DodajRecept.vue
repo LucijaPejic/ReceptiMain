@@ -127,7 +127,7 @@ export default {
                         this.receptDodan = false;
                         this.clearForm();
                         window.location = window.location =
-                            "http://pzio022023.studenti.sum.ba/user/recepti";
+                            "http://127.0.0.1:8000//user/recepti";
                     }, 2000);
                 })
                 .catch((e) => {
