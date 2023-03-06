@@ -1,0 +1,66 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+    --bs-nav-link-font-size: 1rem;
+    --bs-nav-link-font-weight: ;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px #d9d0d0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.712);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.main-sidebar {
+    height: 100%;
+    background-color: #f0f8ff;
+}
+
+.aside-nav-item {
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(213, 212, 212);
+}
+.aside-nav-item:hover {
+    background-color: #eceff1;
+}
+
+.card-body {
+    box-shadow: 2px 2px 5px #d9d0d0;
+    background-color: #f0f8ff;
+}
+
+.table {
+    padding: 10px;
+}
+td {
+    font-size: 14px;
+}
+th {
+    font-size: 14px;
+    font-weight: 500;
+}
+.v-chip {
+    font-size: 14px;
+    width: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.v-btn {
+    font-size: 12px;
+}
+.main-row {
+    height: 100vh;
+}
